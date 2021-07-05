@@ -1,0 +1,19 @@
+{
+  "name": "coursera-react",
+  "version": "1.0.0",
+  "description": "for coursera course learning",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wang-jun-hao/coursera-react.git"
+  },
+  "author": "Jun Hao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wang-jun-hao/coursera-react/issues"
+  },
+  "homepage": "https://github.com/wang-jun-hao/coursera-react#readme"
+}
