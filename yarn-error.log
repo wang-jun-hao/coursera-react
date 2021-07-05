@@ -1,0 +1,52 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.22.10/libexec/bin/yarn.js add create-react-app@1.5.2
+
+PATH: 
+  /usr/local/opt/protobuf@3.6/bin:/opt/homebrew-cask/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/bin:/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/bin:/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/bin:/Users/junhao/.gotools:/Users/junhao/code/go/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/junhao/courses/coursera-react/node_modules/.bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.17.2
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: EACCES: permission denied, mkdir '/Users/junhao/courses/coursera-react/node_modules/duplexer2/node_modules'
+
+npm manifest: 
+  {
+    "name": "coursera-react",
+    "version": "1.0.0",
+    "description": "for coursera course learning",
+    "main": "index.html",
+    "scripts": {
+      "start": "npm run lite",
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "lite": "lite-server"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/wang-jun-hao/coursera-react.git"
+    },
+    "author": "Jun Hao",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/wang-jun-hao/coursera-react/issues"
+    },
+    "homepage": "https://github.com/wang-jun-hao/coursera-react#readme",
+    "devDependencies": {
+      "lite-server": "^2.6.1"
+    },
+    "dependencies": {
+      "create-react-app": "^1.5.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

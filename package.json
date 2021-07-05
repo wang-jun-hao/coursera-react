@@ -20,5 +20,8 @@
   "homepage": "https://github.com/wang-jun-hao/coursera-react#readme",
   "devDependencies": {
     "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "create-react-app": "^1.5.2"
   }
 }
