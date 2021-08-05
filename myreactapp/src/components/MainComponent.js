@@ -14,7 +14,7 @@ class Main extends Component {
         };
     }
 
-    setDishOnSelect(dishId) {
+    setDishOnSelect = (dishId) => {
         this.setState({selectedDish: dishId});
     }
 
@@ -26,7 +26,7 @@ class Main extends Component {
                         <NavbarBrand href="/">My React App</NavbarBrand>
                     </div>
                 </Navbar>
-                <Menu dishes={DISHES} onClick={(dish) => this.setDishOnSelect(dish)}/>
+                <Menu dishes={DISHES} onClick={this.setDishOnSelect}/>
                 <DishDetail selectedDish={this.state.dishes[this.state.selectedDish]} />
             </div>
         );
